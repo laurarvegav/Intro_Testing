@@ -17,7 +17,7 @@ describe Mermaid do
   it 'has a name' do
     mermaid = Mermaid.new('Sereia',20)
     # assert that the student has a name property which matches what was passed in
-    expect(mermaid.name).to eq 'Penelope'
+    expect(mermaid.name).to eq 'Sereia'
   end
 
   it 'has a dynamic age' do
