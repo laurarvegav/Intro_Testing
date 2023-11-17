@@ -24,7 +24,7 @@ describe Mermaid do
     # create a student object property age
     mermaid = Mermaid.new('Sereia',20)
     # assert that the student has an age property which matches what was passed in
-    expect(student.age).to eq 20
+    expect(mermaid.age).to eq 20
   end
   
   it 'has can get older' do
