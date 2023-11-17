@@ -7,7 +7,7 @@ class Mermaid
       @name = name
       @age = age
     end
-    def get_older(name,age)
-     age + 1
+    def get_older(age)
+     age+1
     end
   end
