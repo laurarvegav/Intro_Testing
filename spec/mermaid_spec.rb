@@ -9,26 +9,26 @@ describe Mermaid do
   # the string should briefly describe in plain English what is being tested
   it 'is an instance of mermaid' do
     # create a student object instance
-    mermaid = Mermaid.new('Sereia',22)
+    mermaid = Mermaid.new('Sereia')
     # assert that the student is from the Student class
     expect(mermaid).to be_a Mermaid
   end
 
   it 'has a name' do
-    mermaid = Mermaid.new('Sereia',22)
+    mermaid = Mermaid.new('Sereia')
     # assert that the student has a name property which matches what was passed in
     expect(mermaid.name).to eq 'Sereia'
   end
 
   it 'has an age' do
     # create a student object with property age
-    mermaid = Mermaid.new('Sereia',22)
+    mermaid = Mermaid.new('Sereia')
     # assert that the student has an age property which matches what was passed in
-    expect(mermaid.age).to eq 20
+    expect(mermaid.age).to eq 22
   end
   
   it 'has can get older' do
-    mermaid = Mermaid.new('Sereia',22)
+    mermaid = Mermaid.new('Sereia')
     mermaid.get_older
     expect(mermaid.age).to eq 23
   end
